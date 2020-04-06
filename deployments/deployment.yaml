@@ -39,9 +39,9 @@ spec:
           containerPort: 5000
         env:
         - name: APP_NAME
-          value: CloudAcademy.K8s.GitOps
+          value: GitOps-k8s-helm
         - name: APP_VERSION
-          value: v1.0.6
+          value: v1.0.7
       volumes:
       - name: nginx-proxy-config
         configMap:
