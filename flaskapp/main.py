@@ -7,5 +7,5 @@ def index():
     appname = os.environ['APP_NAME']
     appversion = os.environ['APP_VERSION']
 
-    response = "%s - %s.%s\n" %('FlaskApp GITOPS', appname, appversion)
+    response = "%s - %s.%s\n" %('Fluxcd flaskapp', appname, appversion)
     return response
